@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Signup</title>
+</head>
+<body>
+    <h1>Enter Staff Details</h1><br>
+    <form action="staffsignup" method="post">
+     <table>
+        <tr>
+            <th><label for="name">Name: </label></th>
+            <th><input type="text" name="name" id="name"></th>
+        </tr>
+        <tr>
+            <th><label for="mobile">Mobile: </label></th>
+            <th><input type="tel" pattern="{0-9}[10]" name="mobile" id="mobile"></th>
+        </tr> 
+        <tr>
+            <th><label for="email">Email: </label></th>
+            <th><input type="email" name="email" id="email"></th>
+        </tr> 
+        <tr>
+            <th><label for="password">Password: </label></th>
+            <th><input type="password" name="password" id="password"></th>
+        </tr> 
+        <tr>
+            <th><label for="dob">DOB: </label></th>
+            <th><input type="date" name="dob" id="dob"></th>
+        </tr> 
+        <tr>
+            <th><label for="gender">Gender: </label></th>
+            <th>
+                <input type="radio" name="gender" value="male" id="gender">Male
+                <input type="radio" name="gender" value="female" id="gender">Female
+            </th>
+        </tr> 
+        <tr>
+            <th><button type="reset">Cancel</button></th>
+            <th><button>Register</button></th>
+        </tr>
+     </table>
+    </form>
+    <br><br>
+    <a href="SelectRole.html"><button>Back</button></a>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Patient</title>
+</head>
+<body>
+<h1>Enter Patient Details</h1>
+<form action="addpatient" method="post" enctype="multipart/form-data">
+Name:<input type="text" name="name"><br>
+Mobile:<input type="tel" name="mobile" pattern="{0-9}[10]"><br>
+DOB:<input type="date" name="dob"><br>
+Picture:<input type="file" name="picture"><br>
+<button>Add</button><button type="reset">Cancel</button>
+</form>
+<br>
+<a href="StaffHome.html"><button>Back</button></a>
+</body>
+</html>
